@@ -31,5 +31,18 @@ const onePlusAvergae = function(l,m,n){
 console.log(`i am mubashir `,onePlusAvergae(21,2,1))
 
 
+const calcPercentage = (x,y,z=3)=>{
+   return x*y+2
+}
+
+console.log(calcPercentage(2,45))
+
+
+const checkSum = function(p,q,r=0){
+return p+q+r;
+}
+
+console.log(checkSum(2,true))
+
 
 
